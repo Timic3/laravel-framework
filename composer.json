@@ -30,7 +30,7 @@
         "opis/closure": "^3.6",
         "psr/container": "^1.0",
         "psr/log": "^1.0|^2.0",
-        "psr/simple-cache": "^1.0",
+        "psr/simple-cache": "^1.0|^2.0|^3.0",
         "ramsey/uuid": "^4.2.2",
         "swiftmailer/swiftmailer": "^6.3",
         "symfony/console": "^5.4",
@@ -94,7 +94,7 @@
     },
     "provide": {
         "psr/container-implementation": "1.0",
-        "psr/simple-cache-implementation": "1.0"
+        "psr/simple-cache-implementation": "1.0|2.0|3.0"
     },
     "conflict": {
         "tightenco/collect": "<5.5.33"
